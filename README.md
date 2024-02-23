@@ -6,7 +6,7 @@ This repository will contain the PyTorch training and evaluation code for [FViTs
 
 The overall pipeline of EViTs is illustrated in this figure.
 
-![FViT](./figs/FViT.jpg)
+![FViT](./figs/FViTs.jpg)
 
 If you use this code for a paper please cite:
 
