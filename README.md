@@ -4,7 +4,7 @@ The code will be released at this repository after the paper [FViTs](https://arx
 
 This repository will contain the PyTorch training and evaluation code for [FViTs](https://arxiv.org/abs/2402.11303).
 
-The overall pipeline of EViTs is illustrated in this figure.
+The overall pipeline of FViTs is illustrated in this figure.
 
 ![FViT](./figs/FViTs.jpg)
 
