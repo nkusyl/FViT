@@ -58,7 +58,7 @@ pip install opencv-python==4.4.0.46 termcolor==1.1.0 yacs==0.1.8
 | FViT_Large |  224 | 83.8  |    61.5     | 246M [[Google]](https://drive.google.com/file/d/1ew7VznMIFlsDVwmxQoKqCJc0Fuzrr_4z/view?usp=drive_link) [[BaiduNetdisk]](https://pan.baidu.com/s/17CSVzzS7m4SmEgqHOJ-6GQ?pwd=gsvf) |
 
 ## Evaluation
-To evaluate a pre-trained EViT-Tiny on ImageNet val with GPUs run:
+To evaluate a pre-trained FViT-Base on ImageNet val with GPUs run:
 ```
 python -m torch.distributed.run --nproc_per_node=8 --master_port 18875 train.py --eval True --model FViT_Base --datasets_path /home/ubuntu/Datasets/ImageNet --resume /home/ubuntu/Datasets/FViT-main/save_path/FViT_Base.pth
 ```
