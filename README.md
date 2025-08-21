@@ -60,7 +60,7 @@ pip install opencv-python==4.4.0.46 termcolor==1.1.0 yacs==0.1.8
 ## Evaluation
 To evaluate a pre-trained EViT-Tiny on ImageNet val with GPUs run:
 ```
-python -m torch.distributed.run --nproc_per_node=8 --master_port 18875 train.py --eval True --model FViT_Base --datasets_path /home/ubuntu/Datasets/ImageNet --resume /home/ubuntu/Datasets/EViT-main/save_path/EViT_Base.pth
+python -m torch.distributed.run --nproc_per_node=8 --master_port 18875 train.py --eval True --model FViT_Base --datasets_path /home/ubuntu/Datasets/ImageNet --resume /home/ubuntu/Datasets/FViT-main/save_path/FViT_Base.pth
 ```
 
 If you use this code in your work, please cite this paper, which is part of our parallel study. The link to FViT will be made publicly available once the manuscript is accepted.
